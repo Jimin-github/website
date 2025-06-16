@@ -5,7 +5,7 @@ hero:
   text: "IT技术经理"
   tagline: "5年IT项目管理经验，精通Java、Vue全栈开发，专注企业级系统架构与AI场景落地实践"
   image:
-    src: /website/王继民1寸照片.png
+    src: /王继民1寸照片.png
     alt: 王继民头像
   actions:
     - theme: brand
