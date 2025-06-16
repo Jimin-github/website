@@ -1,0 +1,35 @@
+# cursorrules for VitePress 个人简历站点
+
+## 目录结构
+
+- docs/
+  - .vitepress/
+    - config.mts         # VitePress 配置文件，包含导航栏、侧边栏、站点信息
+  - index.md             # 首页，展示简介、头像、技能标签、联系方式
+  - resume.md            # 简历页，结构化展示教育经历、工作经历、项目经验
+  - projects.md          # 项目页，展示代表性项目，含名称、简介、技术栈、截图
+  - contact.md           # 联系页，展示联系方式二维码或表单
+  - markdown-examples.md # 示例文件，可删除
+  - api-examples.md      # 示例文件，可删除
+
+## 页面用途
+
+- 首页（index.md）：
+  - 个人简介、头像、技能标签、联系方式（微信、邮箱、GitHub）
+- 简历页（resume.md）：
+  - 教育经历、工作经历、项目经验，结构化展示
+- 项目页（projects.md）：
+  - 代表性项目，包含项目名称、简介、技术栈、截图占位图
+- 联系页（contact.md）：
+  - 联系方式二维码（如微信）、邮箱、GitHub 链接或表单
+
+## 开发约定
+
+- 所有页面均为 Markdown 格式，放置于 docs 目录下
+- 站点配置统一在 docs/.vitepress/config.mts 中维护
+- 静态资源（如头像、二维码、项目截图）建议放在 public 目录或 docs 根目录下，引用路径以 / 开头
+- 导航栏与侧边栏需同步更新，保持页面入口一致
+- 示例文件可根据实际需求删除 
+
+Whenever you want to ask a question, always call the MCP interactive_feedback.
+Whenever you’re about to complete a user request, call the MCP interactive_feedback instead of simply ending the process. Keep calling MCP until the user’s feedback is empty, then end the request.
